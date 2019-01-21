@@ -1,0 +1,32 @@
+page{
+  background-color: #000000;
+}
+
+.content{
+  margin-top:40rpx;
+  color:white;
+}
+
+.suggestion{
+  margin-top:20rpx;
+  background-color: #282828;
+  padding:20rpx;
+  border-radius:10rpx;
+}
+
+.content2{
+  margin-top:40rpx;
+}
+
+.contact{
+  margin-top:20rpx;
+  background-color: #282828;
+  padding:20rpx;
+  border-radius:10rpx;
+}
+
+.submit{
+  margin-top:100rpx;
+  background-color: #282828;
+  color:white;
+}

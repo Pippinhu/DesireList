@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="input-content">
+    <text>想要</text>
+    <input value="{{title}}"maxlength="20"placeholder="你想要什么"bindinput=
+    "getTitle"></input>
+  </view>
+  <view  class="input-time">
+   <text>实现日期：</text>
+    <picker mode="date" value="{{time}}" start="1980-01-01" end="2099-12-12"bindchange="datePickerBindchange">{{time}}
+    </picker>
+  </view>
+  <view class="input-content">
+    <text>激励</text>
+    <input value="{{plan}}"maxlength="20"placeholder="来点打鸡血"bindinput=
+    "getPlan"></input>
+  </view>
+  <view class="button">
+    <button class="confirm"bindtap='confirm'>确认</button>
+    <button wx:if="{{flag}}"class="deleteItem"bindtap='deleteItem'>删除</button>
+  </view>
+</view>

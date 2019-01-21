@@ -1,0 +1,16 @@
+<!--pages/user/feedback/feedback.wxml-->
+<view class="container">
+  <text class="title">Thanks</text>
+  <view class="content">
+    <view class="content1">
+      <text>建议：</text>
+      <textarea class="suggestion"placeholder="关于产品、功能、设计、服务的建议"value="{{suggestion}}"bindinput="getSuggest"></textarea>
+    </view>
+    <view class="content2">
+      <text>联络：</text>
+      <input class="contact"placeholder="联系方式（qq号/微信号）"value="{{contact}}"bindinput="getContact"></input>
+    </view>
+    <button class="submit"catchtap="submit">提交</button>
+  </view>
+</view>
+

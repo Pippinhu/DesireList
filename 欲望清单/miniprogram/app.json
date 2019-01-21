@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/detail/edit/edit",
+    "pages/user/user",
+    "pages/user/about/about",
+    "pages/user/feedback/feedback"
+    
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "欲望清单",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"white",
+    "selectedColor":"red",
+    "backgroundColor":"#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath":"images/浏览.png",
+        "iconPath":"images/浏览1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "selectedIconPath": "images/我的.png",
+        "iconPath": "images/我的1.png"
+      }
+    ]
+  }
+}
+

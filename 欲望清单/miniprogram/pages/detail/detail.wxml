@@ -1,0 +1,13 @@
+<view class="container">
+  <!-- <image style="height:350rpx;width:100%"src="/images/background.jpg"mode="widthFix"></image> -->
+  <view class="content">
+    <view class="content-detail">
+      <view class="title">{{title}}</view>
+      <view style="width:100px;height:1px; background:#E0E0E0;margin-top:15rpx"></view>
+      <view class="time">预计{{time}}实现</view>
+    </view>
+    <image class="quote"style="width:100rpx;height:100rpx;"src="/images/引号.png"></image>
+    <view class="plan">{{plan}}</view>
+  </view>
+  <button class="edit"bindtap="tapToEdit"data-id="{{id}}">编辑</button>
+</view>

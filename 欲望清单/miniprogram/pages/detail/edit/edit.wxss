@@ -1,0 +1,54 @@
+page{
+ background-color: #000000
+
+}
+
+.container{
+  margin-top:100rpx;
+}
+.input-content{
+  margin-top: 60rpx;
+  color:white;
+  
+}
+.input-content input{
+  margin-top:10rpx;
+  background-color:#282828;
+  padding:20rpx;
+  width:500rpx;
+  color:#808080;
+  border-radius:10rpx;
+}
+.input-time{
+  margin-top:60rpx;
+  color:white;
+}
+.input-time picker{
+  margin-top:10rpx;
+  color:#808080;
+  background-color:#282828;
+  padding:20rpx;
+  width:500rpx;
+  border-radius:10rpx;
+}
+
+.button{
+  margin-top:120rpx;
+  display:flex;
+  flex-direction:row;
+}
+
+.deleteItem{
+  font-size:30rpx;
+  width:200rpx;
+  background:#1f1f1f;
+  color:red;
+  margin-left:40rpx;
+}
+
+.confirm{
+  font-size:30rpx;
+  width:200rpx;
+  background:#1f1f1f;
+  color:white;
+}

@@ -1,0 +1,68 @@
+page{
+  background:url('https://c1.staticflickr.com/5/4836/32885236938_6be541b837_n.jpg');
+}
+
+.details{
+  width:600rpx;
+  height:900rpx;
+  margin-top:-100rpx;
+  background:#000000;
+  position:relative;
+  z-index:0
+}
+
+.info{
+  margin-top:50rpx;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  z-index:1
+}
+.userNick{
+  text-align:center;
+  font-size:30rpx;
+  color:white;
+  margin-top:20rpx;
+}
+.userInfo{
+  font-size:25rpx;
+  height:50rpx;
+  background: none !important;
+  color:white;
+
+}
+.avatar{
+  height:170rpx;
+  width:170rpx;
+  border-radius:50%;
+  border:5rpx solid #eee;
+}
+
+.name{
+  align-items:center;
+  color:white;
+}
+
+.all{
+  margin-top:150rpx;
+}
+
+.menu-list{
+  background:#1f1f1f;
+  margin-top:70rpx;
+  /* padding:10rpx; */
+  font-size:34rpx;
+  color:white;
+  width:400rpx;
+}
+
+.lists{
+  display:flex;
+  flex-direction:row;
+  border-radius:40rpx;
+}
+
+.icon{
+  width:20rpx;
+  height:20rpx;
+}

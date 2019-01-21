@@ -1,0 +1,66 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wxfaf6e29514073338",
+	"projectname": "%E6%AC%B2%E6%9C%9B%E6%B8%85%E5%8D%952",
+	"libVersion": "2.2.5",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "edit页",
+					"pathName": "pages/detail/edit/edit",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "detail页",
+					"pathName": "pages/detail/detail",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "user页",
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "about页",
+					"pathName": "pages/user/about/about",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "feedback页",
+					"pathName": "pages/user/feedback/feedback",
+					"query": ""
+				}
+			]
+		}
+	}
+}

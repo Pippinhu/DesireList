@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="info">
+    <image wx:if="{{avatarUrl!=null}}"class="avatar"src="{{avatarUrl}}"mode="aspectFit"></image>
+    <image wx:else class="avatar"src="/images/default.png"mode="aspectFit"></image>
+    <view class="userNick"wx:if="{{nickName}}">{{nickName}}</view>
+    <button wx:else class="userInfo"open-type="getUserInfo"bindgetuserinfo="getUserInfo">点击登陆</button>
+  </view>
+  <view class="details">
+    <view class="all">
+      <button class="menu-list"catchtap="onTapToAbout">关于欲望清单</button >
+      <button class="menu-list"catchtap="onTapToSuggestion">意见反馈</button >
+      <button class="menu-list" open-type="share">分享给朋友</button>
+    </view>
+  </view>
+</view>
+  

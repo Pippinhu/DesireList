@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="headline">Desire List</view>
+  <view class='tip' wx:if="{{!desireList.length}}">无欲无求？</view>
+  <view class="listall">
+    <block wx:for="{{desireList}}">
+      <view class="list"catchtap="onTapToDetail"data-id="{{item._id}}">
+        <view class="detail">
+          <view class='title'>{{item.title}}</view>
+          <view class='time'>{{item.time}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+  <image class="icon"src="/images/add.png"catchtap="getUserContent"></image>
+</view>
+    
+ 
+
+

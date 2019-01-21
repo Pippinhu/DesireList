@@ -1,0 +1,79 @@
+/* pages/user/about/about.wxss */
+
+page{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.container{
+   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2ebf91), color-stop(1, #8360c3));
+   width:100%;
+   height:100%;
+  background-size: cover;
+}
+
+.article{
+ padding:40rpx;
+}
+
+.card{
+  margin-top:300rpx;
+  width:100%;
+  height:100%;
+  background-color:#282828;
+  border-radius:20rpx;
+}
+
+.avatar{
+  height:170rpx;
+  width:170rpx;
+  border-radius:50%;
+  border:5rpx solid #eee;
+  position:fixed;
+  top:200rpx;
+  right:60rpx;
+}
+
+.title1{
+  margin-top:40rpx;
+  color:#31E9D4;
+  font-size:40rpx;
+}
+
+.title2{
+  margin-top:40rpx; 
+  color:#31E9D4;
+  font-size:40rpx;
+}
+
+.content-part1{
+  margin-top:20rpx;
+  color:#A0A0A0;
+  font-size:30rpx;
+  letter-spacing:2rpx;
+  line-height:40rpx;
+}
+
+.content-part2{
+  margin-top:20rpx;
+  color:#A0A0A0;
+  font-size:30rpx;
+  letter-spacing:2rpx;
+  line-height:40rpx;
+}
+
+.content-part3{
+  margin-top:20rpx;
+  color:#A0A0A0;
+  font-size:30rpx;
+  letter-spacing:2rpx;
+  line-height:40rpx;
+}
+
+.content-part4{
+  margin-top:40rpx;
+  color:#A0A0A0;
+  font-size:30rpx;
+  letter-spacing:2rpx;
+  line-height:40rpx;
+}
